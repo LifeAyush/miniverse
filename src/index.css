@@ -1,5 +1,45 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+/* Imported Fonts */
+@font-face {
+  font-family: "Zyzol";
+  src: url("./Fonts/Zyzol-Wyd3n.otf") format("opentype");
+}
+@font-face {
+  font-family: "Zyzol-outline";
+  src: url("./Fonts/ZyzolOutline-OVr46.otf") format("opentype");
+}
+@font-face {
+  font-family: "Zyzol-outline-2";
+  src: url("./Fonts/ZyzolShadow-ZVXD3.otf") format("opentype");
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* General Styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+
+
+/* Variables */
+:root {
+  --bg: linear-gradient(
+      116.82deg,
+      rgba(216, 206, 255, 0.8) 0%,
+      rgba(255, 218, 254, 0.8) 44.58%,
+      rgba(187, 252, 236, 0.8) 97.7%
+    ),
+    #ffffff;
+  --text: #222b5a;
+}
+
+
+/* Universal Classes */
+.imported-navbar {
+  padding-top: 48px;
+  padding-bottom: 48px;
 }

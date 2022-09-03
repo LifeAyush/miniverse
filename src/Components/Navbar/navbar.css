@@ -1,0 +1,83 @@
+.navbar {
+  margin: 0px 100px;
+  background: #ffffff;
+  box-shadow: 0px 6px 40px rgba(85, 85, 85, 0.1);
+  border-radius: 8px;
+  padding: 21px 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.nav-active-state {
+  background: #a78fff;
+  border-radius: 6px;
+  padding: 8px 16px;
+  font-family: "Zyzol";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+}
+.nav-passive-state {
+  font-family: "Zyzol";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(62, 62, 62, 0.86);
+}
+.nav-utils {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.nav-utils-notification {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.nav-utils-coins {
+  cursor: pointer;
+  padding: 6px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(149, 199, 236, 0.24);
+  border: 1px solid #92d5f8;
+  border-radius: 8px;
+  gap: 10px;
+}
+.nav-utils-coins-text {
+  font-family: "Zyzol";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #95c7ec;
+}
+.nav-utils-user {
+  cursor: pointer;
+  background: rgba(245, 132, 31, 0.15);
+  border: 1px solid #f5841f;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 4px 12px;
+}
+.nav-utils-user-text {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #3e3e3e;
+}
