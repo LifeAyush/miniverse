@@ -192,3 +192,136 @@
   display: flex;
   justify-content: center;
 }
+.stakeverse-topbar {
+  display: none;
+}
+@media only screen and (max-width: 1200px) {
+  .stakeverse-normal-card {
+    width: 216px;
+  }
+  .stakeverse-sidebar {
+    display: none;
+  }
+  .stakeverse-topbar {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 28px;
+    row-gap: 12px;
+  }
+  .Stakeverse-main {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    margin-left: 0;
+    flex-direction: column;
+  }
+  .stakeverse-topbar-card-primary {
+    display: flex;
+    flex-direction: column;
+    padding: 21px 18px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 5.41008px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  .stakeverse-topbar-card-primary-title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    text-transform: uppercase;
+    color: #222b5a;
+    opacity: 0.6;
+  }
+  .stakeverse-topbar-card-primary-box {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+  }
+  .stakeverse-topbar-card-primary-box-text {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222b5a;
+  }
+  .stakeverse-topbar-card-secondary {
+    display: flex;
+    flex-direction: column;
+    padding: 21px 18px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 5.41008px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+  }
+  .stakeverse-topbar-card-secondary-title {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 10px;
+    text-transform: uppercase;
+    color: #222b5a;
+    opacity: 0.6;
+  }
+  .stakeverse-topbar-card-secondary-number {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222b5a;
+  }
+  .stakeverse-topbar-card-claim {
+    padding: 12px 15px;
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 5.41008px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+  }
+  .stakeverse-topbar-card-claim-number {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #222b5a;
+  }
+  .stakeverse-topbar-card-claim-box {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+  .stakeverse-topbar-card-claim-btn {
+    background: #ffffff;
+    border: 0.542857px solid #ffffff;
+    border-radius: 3.25714px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #222b5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 0px;
+    margin-top: 5px;
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .stakeverse-card-display {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .stakeverse-card-display {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .stakeverse-topbar {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 12px;
+    row-gap: 12px;
+  }
+}

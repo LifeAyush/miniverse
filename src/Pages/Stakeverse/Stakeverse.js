@@ -12,6 +12,43 @@ const Stakeverse = () => {
         <Navbar />
       </div>
       <div className="Stakeverse-main">
+        <div className="stakeverse-topbar">
+          <div className="stakeverse-topbar-card-primary">
+            <div className="stakeverse-topbar-card-primary-title">
+              TOTAL REWARDS EARNED
+            </div>
+            <div className="stakeverse-topbar-card-primary-box">
+              <span className="stakeverse-topbar-card-primary-box-text">
+                8999
+              </span>
+              <img src={snowflake} alt="Snowflakes" />
+            </div>
+          </div>
+          <div className="stakeverse-topbar-card-secondary">
+            <span className="stakeverse-topbar-card-secondary-title">
+              TOTAL nfts
+            </span>
+            <span className="stakeverse-topbar-card-secondary-number">198</span>
+          </div>
+          <div className="stakeverse-topbar-card-secondary">
+            <span className="stakeverse-topbar-card-secondary-title">
+              nFTS FOR STAKING
+            </span>
+            <span className="stakeverse-topbar-card-secondary-number">216</span>
+          </div>
+          <div className="stakeverse-topbar-card-claim">
+            <span className="stakeverse-topbar-card-primary-title">
+              Available for claim
+            </span>
+            <div className="stakeverse-topbar-card-claim-box">
+              <span className="stakeverse-topbar-card-claim-number">
+                1249
+              </span>
+              <img src={snowflake} alt="snowflakes" />
+            </div>
+            <button className="stakeverse-topbar-card-claim-btn">Claim</button>
+          </div>
+        </div>
         <div className="stakeverse-sidebar">
           <div className="stakeverse-sidebar-primary-box">
             <span className="stakeverse-sidebar-primary-box-title">
