@@ -81,3 +81,63 @@
   line-height: 25px;
   color: #3e3e3e;
 }
+.mobile-nav {
+  display: none;
+}
+@media only screen and (max-width: 1200px) {
+  .navbar {
+    display: none;
+  }
+  .mobile-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100vw;
+    background-color: white;
+  }
+  .mob-nav-menu {
+    position: relative;
+    left: 95px;
+    font-size: 24px;
+    z-index: 5;
+  }
+  .none {
+    display: none;
+  }
+  .mob-nav-menu-display {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(
+        116.82deg,
+        rgba(216, 206, 255, 0.8) 0%,
+        rgba(255, 218, 254, 0.8) 44.58%,
+        rgba(187, 252, 236, 0.8) 97.7%
+      ),
+      #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 4;
+  }
+  .mob-nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-items: center;
+    align-items: center;
+  }
+  .nav-passive-state {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .nav-active-state {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+  }
+  
+}

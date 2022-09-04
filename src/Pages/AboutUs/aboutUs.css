@@ -1,3 +1,98 @@
-.AboutUs-container{
-    background: var(--bg);
+.AboutUs-container {
+  background: var(--bg);
+}
+.AboutUs-Hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 54px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.AboutUs-Hero-img-div {
+  border: 8px solid transparent;
+  border-image-source: conic-gradient(
+    from 147.05deg at 50% 50%,
+    rgba(255, 255, 255, 0) 0deg,
+    #fbf1cf 66.14deg,
+    #d0f6f7 131.25deg,
+    #e4e7fe 175.81deg,
+    #fdc6d3 239.17deg,
+    rgba(255, 255, 255, 0) 360deg
+  );
+  border-image-slice: 1;
+
+  transform: rotate(180deg);
+  position: relative;
+  left: 10.5px;
+  top: 10px;
+  height: 240px;
+}
+
+.AboutUs-Hero-img-div-img {
+  transform: rotate(180deg);
+  position: relative;
+  top: 10.5px;
+  left: 21px;
+}
+.AboutUs-Hero-Text-div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.AboutUs-Hero-Text-div-heading {
+  font-family: "Zyzol";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 67px;
+  color: #222b5a;
+}
+.AboutUs-Hero-Text-div-para {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 29px;
+}
+.AboutUs-main {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  gap: 36px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+.AboutUs-main-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.AboutUs-main-stat-box {
+  display: flex;
+  gap: 20px;
+}
+.AboutUs-main-stat-box-text {
+  display: flex;
+  flex-direction: column;
+}
+.AboutUs-main-stat-box-text-title {
+  font-family: "Zyzol";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 45px;
+  color: #222b5a;
+}
+.AboutUs-main-stat-box-text-desc {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #222b5a;
+  opacity: 0.6;
 }
