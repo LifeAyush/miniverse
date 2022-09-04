@@ -91,14 +91,18 @@
   .mobile-nav {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    padding: 0px 24px;
     height: 60px;
     width: 100vw;
     background-color: white;
   }
+  .balancing-div{
+    position: relative;
+    z-index: -10000000000000000;
+  }
   .mob-nav-menu {
     position: relative;
-    left: 95px;
     font-size: 24px;
     z-index: 5;
   }
@@ -108,6 +112,7 @@
   .mob-nav-menu-display {
     position: absolute;
     top: 0;
+    left: 0;
     height: 100vh;
     width: 100vw;
     background: linear-gradient(

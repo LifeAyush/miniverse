@@ -64,6 +64,9 @@ const Navbar = () => {
         </div>
       </div>
       <div className="mobile-nav">
+        <div className="balancing-div">
+          a
+        </div>
         <div className="mob-nav-title">
           <img src={navTitle} alt="Miniverse" />
         </div>

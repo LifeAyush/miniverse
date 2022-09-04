@@ -1,5 +1,6 @@
 .AboutUs-container {
   background: var(--bg);
+  overflow-x: hidden;
 }
 .AboutUs-Hero {
   display: flex;
@@ -95,4 +96,246 @@
   line-height: 19px;
   color: #222b5a;
   opacity: 0.6;
+}
+
+.AboutUs-Hero-Text-div-para-mob {
+  display: none;
+}
+.AboutUs-recent-sales {
+  display: none;
+}
+@media only screen and (max-width: 1024px) {
+  .AboutUs-Hero-Text-div-para {
+    display: none;
+  }
+  .AboutUs-Hero-Text-div-para-mob {
+    display: contents;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+  }
+  .AboutUs-main-graph {
+    width: 90vw;
+    overflow-x: scroll;
+    margin-left: 9vw;
+    border-radius: 10px;
+  }
+  .AboutUs-main {
+    flex-direction: column-reverse;
+  }
+  .AboutUs-main-stats {
+    width: 90vw;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin-left: -8px;
+    margin-top: -20px;
+  }
+  .AboutUs-main-stat-box {
+    gap: 14px;
+  }
+  .AboutUs-recent-sales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 40px;
+  }
+  .AboutUs-sales-box {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  .AboutUs-sales-box-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .AboutUs-sales-box-text-title {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #222b5a;
+  }
+  .AboutUs-sales-box-text-desc {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #222b5a;
+  }
+  .AboutUs-sales-box-snowflakes {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    margin-left: 10vw;
+  }
+  .AboutUs-sales-box-snowflakes-text {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #222b5a;
+  }
+  .AboutUs-recent-sales-button {
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 8px 32px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #222b5a;
+    border: none;
+    outline: none;
+    width: 105px;
+  }
+  .AboutUs-recent-sales-title {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222b5a;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .AboutUs-Hero {
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 32px;
+  }
+  .AboutUs-Hero-Text-div-heading {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .AboutUs-Hero-Text-div-para {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .AboutUs-Hero-Text-div {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .elipses {
+    display: -webkit-box !important;
+    max-width: 80vw;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .AboutUs-Hero-Text-div-para-mob {
+    display: contents;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+  }
+  .AboutUs-main {
+    flex-direction: column-reverse;
+  }
+  .AboutUs-main-stats {
+    width: 80vw;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 22px;
+    margin-left: -8px;
+    margin-top: -20px;
+  }
+  .AboutUs-main-stat-box {
+    gap: 14px;
+  }
+  .AboutUs-main-stat-box-text-title {
+    font-size: 25.1429px;
+    line-height: 30px;
+  }
+  .AboutUs-main-stat-box-text-desc {
+    font-size: 12.5714px;
+    line-height: 15px;
+  }
+  .AboutUs-main-graph {
+    width: 90vw;
+    overflow-x: scroll;
+    margin-left: 9vw;
+    border-radius: 10px;
+  }
+  .AboutUs-recent-sales {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    margin-bottom: 40px;
+  }
+  .AboutUs-sales-box {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  .AboutUs-sales-box-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .AboutUs-sales-box-text-title {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #222b5a;
+  }
+  .AboutUs-sales-box-text-desc {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    color: #222b5a;
+  }
+  .AboutUs-sales-box-snowflakes {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    margin-left: 10vw;
+  }
+  .AboutUs-sales-box-snowflakes-text {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #222b5a;
+  }
+  .AboutUs-recent-sales-button {
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 8px 32px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #222b5a;
+    border: none;
+    outline: none;
+    width: 105px;
+  }
+  .AboutUs-recent-sales-title {
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222b5a;
+  }
 }
