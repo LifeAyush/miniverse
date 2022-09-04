@@ -4,7 +4,7 @@ import Navbar from "../../Components/Navbar/Navbar";
 import snowflake from "../../assets/images/snowflake.svg";
 import nft1 from "../../assets/images/nft1.svg";
 import nft2 from "../../assets/images/nft2.svg";
-
+import nftFace1 from "../../assets/images/nft-face1.svg";
 const Stakeverse = () => {
   return (
     <div className="Stakeverse-container">
@@ -52,6 +52,268 @@ const Stakeverse = () => {
             <div className="stakeverse-sidebar-secondary-box-cont">
               <span className="stakeverse-sidebar-secondary-box-count">25</span>
               <img src={nft2} alt="Snowflakes" />
+            </div>
+          </div>
+        </div>
+        <div className="stakeverse-card-display">
+          <div className="stakeverse-normal-card">
+            <div className="stakeverse-noraml-card-img-div">
+              <img src={nftFace1} alt="nft" />
+              <div className="stakeverse-noraml-card-img-rank">
+                <span>Rank: </span>
+                <span>0000</span>
+              </div>
+            </div>
+            <div className="stakeverse-noraml-card-text-div">
+              <div className="stakeverse-noraml-card-text-div-title">
+                Miniverse #0000
+              </div>
+              <div className="stakeverse-noraml-card-text-div-main">
+                <div className="stakeverse-noraml-card-text-div-main-earned">
+                  <span>Earned:</span>
+                  <div className="stakeverse-noraml-card-text-div-main-earned-snowflake">
+                    <span>6343</span>
+                    <img src={snowflake} alt="Snowflakes" />
+                  </div>
+                </div>
+                <div className="stakeverse-noraml-card-text-div-main-progressbar">
+                  4/7 Days
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="stakeverse-normal-card">
+            <div className="stakeverse-noraml-card-img-div">
+              <img src={nftFace1} alt="nft" />
+              <div className="stakeverse-noraml-card-img-rank">
+                <span>Rank: </span>
+                <span>0000</span>
+              </div>
+            </div>
+            <div className="stakeverse-noraml-card-text-div">
+              <div className="stakeverse-noraml-card-text-div-title">
+                Miniverse #0000
+              </div>
+              <div className="stakeverse-noraml-card-text-div-main">
+                <div className="stakeverse-noraml-card-text-div-main-earned">
+                  <span>Earned:</span>
+                  <div className="stakeverse-noraml-card-text-div-main-earned-snowflake">
+                    <span>6343</span>
+                    <img src={snowflake} alt="Snowflakes" />
+                  </div>
+                </div>
+                <div className="stakeverse-noraml-card-text-div-main-progressbar">
+                  4/7 Days
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="stakeverse-normal-card">
+            <div className="stakeverse-noraml-card-img-div">
+              <img src={nftFace1} alt="nft" />
+              <div className="stakeverse-noraml-card-img-rank">
+                <span>Rank: </span>
+                <span>0000</span>
+              </div>
+            </div>
+            <div className="stakeverse-noraml-card-text-div">
+              <div className="stakeverse-noraml-card-text-div-title">
+                Miniverse #0000
+              </div>
+              <div className="stakeverse-noraml-card-text-div-main">
+                <div className="stakeverse-noraml-card-text-div-main-earned">
+                  <span>Earned:</span>
+                  <div className="stakeverse-noraml-card-text-div-main-earned-snowflake">
+                    <span>6343</span>
+                    <img src={snowflake} alt="Snowflakes" />
+                  </div>
+                </div>
+                <div className="stakeverse-noraml-card-text-div-main-progressbar">
+                  4/7 Days
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="stakeverse-normal-card">
+            <div className="stakeverse-noraml-card-img-div">
+              <img src={nftFace1} alt="nft" />
+              <div className="stakeverse-noraml-card-img-rank">
+                <span>Rank: </span>
+                <span>0000</span>
+              </div>
+            </div>
+            <div className="stakeverse-noraml-card-text-div">
+              <div className="stakeverse-noraml-card-text-div-title">
+                Miniverse #0000
+              </div>
+              <div className="stakeverse-noraml-card-text-div-main">
+                <div className="stakeverse-noraml-card-text-div-main-earned">
+                  <span>Earned:</span>
+                  <div className="stakeverse-noraml-card-text-div-main-earned-snowflake">
+                    <span>6343</span>
+                    <img src={snowflake} alt="Snowflakes" />
+                  </div>
+                </div>
+                <div className="stakeverse-noraml-card-text-div-main-progressbar">
+                  4/7 Days
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="stakeverse-normal-card">
+            <div className="stakeverse-noraml-card-img-div">
+              <img src={nftFace1} alt="nft" />
+              <div className="stakeverse-noraml-card-img-rank">
+                <span>Rank: </span>
+                <span>0000</span>
+              </div>
+            </div>
+            <div className="stakeverse-noraml-card-text-div">
+              <div className="stakeverse-noraml-card-text-div-title">
+                Miniverse #0000
+              </div>
+              <div className="stakeverse-noraml-card-text-div-main">
+                <div className="stakeverse-noraml-card-text-div-main-earned">
+                  <span>Earned:</span>
+                  <div className="stakeverse-noraml-card-text-div-main-earned-snowflake">
+                    <span>6343</span>
+                    <img src={snowflake} alt="Snowflakes" />
+                  </div>
+                </div>
+                <div className="stakeverse-noraml-card-text-div-main-progressbar">
+                  4/7 Days
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="stakeverse-normal-card">
+            <div className="stakeverse-noraml-card-img-div">
+              <img src={nftFace1} alt="nft" />
+              <div className="stakeverse-noraml-card-img-rank">
+                <span>Rank: </span>
+                <span>0000</span>
+              </div>
+            </div>
+            <div className="stakeverse-noraml-card-text-div">
+              <div className="stakeverse-noraml-card-text-div-title">
+                Miniverse #0000
+              </div>
+              <div className="stakeverse-noraml-card-text-div-main">
+                <div className="stakeverse-noraml-card-text-div-main-earned">
+                  <span>Earned:</span>
+                  <div className="stakeverse-noraml-card-text-div-main-earned-snowflake">
+                    <span>6343</span>
+                    <img src={snowflake} alt="Snowflakes" />
+                  </div>
+                </div>
+                <div className="stakeverse-noraml-card-text-div-main-progressbar">
+                  4/7 Days
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="stakeverse-normal-card">
+            <div className="stakeverse-noraml-card-img-div">
+              <img src={nftFace1} alt="nft" />
+              <div className="stakeverse-noraml-card-img-rank">
+                <span>Rank: </span>
+                <span>0000</span>
+              </div>
+            </div>
+            <div className="stakeverse-noraml-card-text-div">
+              <div className="stakeverse-noraml-card-text-div-title">
+                Miniverse #0000
+              </div>
+              <div className="stakeverse-noraml-card-text-div-main">
+                <div className="stakeverse-noraml-card-text-div-main-earned">
+                  <span>Earned:</span>
+                  <div className="stakeverse-noraml-card-text-div-main-earned-snowflake">
+                    <span>6343</span>
+                    <img src={snowflake} alt="Snowflakes" />
+                  </div>
+                </div>
+                <div className="stakeverse-noraml-card-text-div-main-progressbar">
+                  4/7 Days
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="stakeverse-normal-card">
+            <div className="stakeverse-noraml-card-img-div">
+              <img src={nftFace1} alt="nft" />
+              <div className="stakeverse-noraml-card-img-rank">
+                <span>Rank: </span>
+                <span>0000</span>
+              </div>
+            </div>
+            <div className="stakeverse-noraml-card-text-div">
+              <div className="stakeverse-noraml-card-text-div-title">
+                Miniverse #0000
+              </div>
+              <div className="stakeverse-noraml-card-text-div-main">
+                <div className="stakeverse-noraml-card-text-div-main-earned">
+                  <span>Earned:</span>
+                  <div className="stakeverse-noraml-card-text-div-main-earned-snowflake">
+                    <span>6343</span>
+                    <img src={snowflake} alt="Snowflakes" />
+                  </div>
+                </div>
+                <div className="stakeverse-noraml-card-text-div-main-progressbar">
+                  4/7 Days
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="stakeverse-normal-card">
+            <div className="stakeverse-noraml-card-img-div">
+              <img src={nftFace1} alt="nft" />
+              <div className="stakeverse-noraml-card-img-rank">
+                <span>Rank: </span>
+                <span>0000</span>
+              </div>
+            </div>
+            <div className="stakeverse-noraml-card-text-div">
+              <div className="stakeverse-noraml-card-text-div-title">
+                Miniverse #0000
+              </div>
+              <div className="stakeverse-noraml-card-text-div-main">
+                <div className="stakeverse-noraml-card-text-div-main-earned">
+                  <span>Earned:</span>
+                  <div className="stakeverse-noraml-card-text-div-main-earned-snowflake">
+                    <span>6343</span>
+                    <img src={snowflake} alt="Snowflakes" />
+                  </div>
+                </div>
+                <div className="stakeverse-noraml-card-text-div-main-progressbar">
+                  4/7 Days
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="stakeverse-normal-card">
+            <div className="stakeverse-noraml-card-img-div">
+              <img src={nftFace1} alt="nft" />
+              <div className="stakeverse-noraml-card-img-rank">
+                <span>Rank: </span>
+                <span>0000</span>
+              </div>
+            </div>
+            <div className="stakeverse-noraml-card-text-div">
+              <div className="stakeverse-noraml-card-text-div-title">
+                Miniverse #0000
+              </div>
+              <div className="stakeverse-noraml-card-text-div-main">
+                <div className="stakeverse-noraml-card-text-div-main-earned">
+                  <span>Earned:</span>
+                  <div className="stakeverse-noraml-card-text-div-main-earned-snowflake">
+                    <span>6343</span>
+                    <img src={snowflake} alt="Snowflakes" />
+                  </div>
+                </div>
+                <div className="stakeverse-noraml-card-text-div-main-progressbar">
+                  4/7 Days
+                </div>
+              </div>
             </div>
           </div>
         </div>

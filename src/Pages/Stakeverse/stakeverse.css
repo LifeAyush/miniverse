@@ -9,13 +9,14 @@
 }
 .stakeverse-sidebar {
   background: url(../../assets/images/sidebarBg.svg);
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 20px;
-  min-height: 803px;
   border-radius: 8px;
+  padding: 20px;
 }
+
 .stakeverse-sidebar-primary-box {
   background: linear-gradient(
     62.42deg,
@@ -28,6 +29,8 @@
   flex-direction: column;
   gap: 7px;
   padding: 14px 18px;
+  background-image: url(../../assets/images/primaryCardBg.svg);
+  background-position: center center;
 }
 .stakeverse-sidebar-primary-box-title {
   font-family: "Nunito";
@@ -104,4 +107,88 @@
   font-size: 32px;
   line-height: 45px;
   color: #ffffff;
+}
+.stakeverse-card-display {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  column-gap: 44px;
+  row-gap: 32px;
+  margin-bottom: 40px;
+}
+.stakeverse-normal-card {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  max-height: 335px;
+}
+.stakeverse-noraml-card-text-div {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 12px 18px;
+  padding-top: 0px;
+}
+.stakeverse-noraml-card-text-div-title {
+  font-family: "Zyzol-outline-2";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #7b70df;
+}
+.stakeverse-noraml-card-text-div-main {
+  display: flex;
+  gap: 6px;
+  flex-direction: column;
+}
+.stakeverse-noraml-card-text-div-main-earned {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Zyzol";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: #7b70df;
+}
+.stakeverse-noraml-card-text-div-main-earned-snowflake {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.stakeverse-noraml-card-text-div-main-progressbar {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 10px;
+  letter-spacing: 0.02em;
+  color: #f2f3fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #7b70df;
+  border-radius: 2px;
+  padding: 2px 0px;
+}
+.stakeverse-noraml-card-img-rank {
+  position: relative;
+  bottom: 205px;
+  left: 135px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 4px;
+  padding: 4px 6px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  color: #3e3e3e;
+  max-width: 70px;
+  display: flex;
+  justify-content: center;
 }
